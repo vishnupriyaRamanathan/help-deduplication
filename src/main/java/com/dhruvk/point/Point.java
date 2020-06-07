@@ -1,7 +1,5 @@
 package com.dhruvk.point;
 
-import java.util.Objects;
-
 public class Point {
     private final int x;
     private final int y;
@@ -20,8 +18,4 @@ public class Point {
                 y == point.y;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(x, y);
-    }
 }
